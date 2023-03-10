@@ -4,7 +4,7 @@ In the last project, you created the About Me app, using tab navigation; it also
 
 The Home screen and the Skills screen remain the same as in the previous project. The School screen needs a button to take the user to the Course List. The Course List screen remains the same except the background color needs to match the About Me screens. The new School screen and new Course List screen look like this:
 
-nestNav-School.PNG   nestNav-Courses.PNG
+![nestNav-School.PNG](https://github.com/bell-kevin/nestedNavigationAboutMePlusCourseList/blob/main/pics/nestNav-School.PNG)   ![nestNav-Courses.PNG](https://github.com/bell-kevin/nestedNavigationAboutMePlusCourseList/blob/main/pics/nestNav-Courses.PNG)
 
 As you saw in the tutorial, you need to add a function for the stack, which contains the School screen and the Course Listing screen. Then, in the Tab for the School screen, use that function as the component, instead of the School screen. Be sure to check the headers -- with 2 navigators, there will be 2 headers, so get rid of one of them, as shown in the tutorial.
 
@@ -13,6 +13,10 @@ The button needs a background color that is not the default blue. It also needs 
 Take 2 screenshots, as shown above.
 
 Submission: Zip together the root folder and the 2 screenshots, and submit the single zipped folder.
+
+![p](https://github.com/bell-kevin/nestedNavigationAboutMePlusCourseList/blob/main/screenshots/3.PNG)
+
+![p](https://github.com/bell-kevin/nestedNavigationAboutMePlusCourseList/blob/main/screenshots/4.PNG)
 
 ## How to:
 
