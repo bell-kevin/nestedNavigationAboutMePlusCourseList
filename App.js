@@ -143,11 +143,12 @@ const TabNavigator = () => {
           }
           return <AntDesign name={iconName} size={size} color={color} />;
         },
+        tabBarActiveTintColor: 'tomato',
+        tabBarInactiveTintColor: 'gray',
+        tabBarStyle: {
+          display: 'flex',
+        },
       })}
-      tabBarOptions={{
-        activeTintColor: 'tomato',
-        inactiveTintColor: 'gray',
-      }}
     >
       <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Skills" component={SkillsScreen} />
@@ -155,6 +156,7 @@ const TabNavigator = () => {
     </Tab.Navigator>
   );
 };
+
 
 const styles = StyleSheet.create({
   card: {
@@ -168,7 +170,6 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   courseDescription: {
-    fontFamily: 'OpenSans_400Regular',
     fontSize: 16,
   },
   container: {
